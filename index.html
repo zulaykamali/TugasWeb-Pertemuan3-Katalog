@@ -1,0 +1,1776 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Litera — Temukan Cerita untuk Setiap Perjalanan</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- ==================================================
+         NAVBAR
+         ================================================== -->
+
+    <nav class="navbar navbar-expand-lg litera-navbar">
+
+        <div class="container">
+
+            <!-- Logo -->
+            <a
+                class="navbar-brand"
+                href="#beranda"
+            >
+                LITERA
+            </a>
+
+
+            <!-- Hamburger -->
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar"
+                aria-expanded="false"
+                aria-label="Buka menu navigasi"
+            >
+                <i class="bi bi-list"></i>
+            </button>
+
+
+            <!-- Navigation -->
+            <div
+                class="collapse navbar-collapse"
+                id="mainNavbar"
+            >
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link active"
+                            href="#beranda"
+                        >
+                            Beranda
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="#jelajahi"
+                        >
+                            Kategori
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="#katalog"
+                        >
+                            Katalog
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="#tentang"
+                        >
+                            Tentang
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- ==================================================
+         BERANDA
+         ================================================== -->
+
+    <section
+        id="beranda"
+        class="hero-section"
+    >
+
+        <div class="container">
+
+            <div class="hero-content text-center">
+
+                <p class="hero-label">
+                    SELAMAT DATANG DI LITERA
+                </p>
+
+
+                <h1 class="hero-title">
+
+                    Temukan cerita untuk
+                    <span>setiap perjalanan.</span>
+
+                </h1>
+
+
+                <p class="hero-description">
+
+                    Mau mencari cerita baru, menambah
+                    pengetahuan, atau sekadar mengisi waktu
+                    luang? Temukan buku yang cocok untukmu
+                    di sini.
+
+                </p>
+
+
+                <a
+                    href="#jelajahi"
+                    class="btn litera-btn"
+                >
+
+                    Jelajahi Koleksi
+
+                    <i class="bi bi-arrow-down"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         KATEGORI
+         ================================================== -->
+
+    <section
+        id="jelajahi"
+        class="category-section"
+    >
+
+        <div class="container">
+
+            <div class="section-heading text-center">
+
+                <p class="section-label">
+                    KATEGORI
+                </p>
+
+
+                <h2>
+                    Mau baca yang seperti apa?
+                </h2>
+
+
+                <p>
+                    Pilih kategori yang paling sesuai
+                    dengan suasana hati atau hal yang
+                    sedang ingin kamu cari.
+                </p>
+
+            </div>
+
+
+            <div class="row g-3">
+
+
+                <!-- FIKSI -->
+
+                <div class="col-12 col-md-4">
+
+                    <a
+                        href="#katalog-fiksi"
+                        class="category-card category-fiction"
+                    >
+
+                        <div class="category-icon">
+                            <i class="bi bi-book"></i>
+                        </div>
+
+
+                        <h3>
+                            Fiksi
+                        </h3>
+
+
+                        <p>
+                            Untuk kamu yang ingin larut
+                            dalam cerita, tokoh, dan
+                            petualangan yang seru.
+                        </p>
+
+
+                        <span class="category-link">
+
+                            Lihat buku
+
+                            <i class="bi bi-arrow-right"></i>
+
+                        </span>
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- NONFIKSI -->
+
+                <div class="col-12 col-md-4">
+
+                    <a
+                        href="#katalog-nonfiksi"
+                        class="category-card category-nonfiction"
+                    >
+
+                        <div class="category-icon">
+                            <i class="bi bi-journal-bookmark"></i>
+                        </div>
+
+
+                        <h3>
+                            Nonfiksi
+                        </h3>
+
+
+                        <p>
+                            Tambah wawasan lewat buku
+                            tentang pengetahuan, kehidupan,
+                            dan kisah nyata.
+                        </p>
+
+
+                        <span class="category-link">
+
+                            Lihat buku
+
+                            <i class="bi bi-arrow-right"></i>
+
+                        </span>
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- ANAK-ANAK -->
+
+                <div class="col-12 col-md-4">
+
+                    <a
+                        href="#katalog-anak"
+                        class="category-card category-children"
+                    >
+
+                        <div class="category-icon">
+                            <i class="bi bi-stars"></i>
+                        </div>
+
+
+                        <h3>
+                            Anak-Anak
+                        </h3>
+
+
+                        <p>
+                            Cerita ringan dan buku
+                            pembelajaran yang seru
+                            untuk anak-anak.
+                        </p>
+
+
+                        <span class="category-link">
+
+                            Lihat buku
+
+                            <i class="bi bi-arrow-right"></i>
+
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         KATALOG
+         ================================================== -->
+
+    <section
+        id="katalog"
+        class="catalog-section"
+    >
+
+        <div class="container">
+
+
+            <!-- Heading -->
+
+            <div class="section-heading text-center">
+
+                <p class="section-label">
+                    KOLEKSI LITERA
+                </p>
+
+
+                <h2>
+                    Katalog Buku
+                </h2>
+
+
+                <p>
+                    Pilih buku yang menarik perhatianmu.
+                    Siapa tahu, buku berikutnya yang kamu
+                    baca ada di sini.
+                </p>
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 FIKSI
+                 ================================================== -->
+
+            <div
+                id="katalog-fiksi"
+                class="catalog-category"
+            >
+
+                <div class="catalog-category-heading">
+
+                    <div>
+
+                        <h3>
+                            Fiksi
+                        </h3>
+
+                        <p>
+                            Cerita untuk membawa kamu
+                            ke dunia yang berbeda.
+                        </p>
+
+                    </div>
+
+
+                    <span>
+                        4 Buku
+                    </span>
+
+                </div>
+
+
+                <div class="row g-4">
+
+
+                    <!-- BUMI -->
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                        <article class="book-card">
+
+                            <div class="book-cover">
+
+                                <img
+                                    src="bumi.jpg"
+                                    alt="Cover buku Bumi"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+
+                            <div class="book-info">
+
+                                <span class="book-category">
+                                    Fiksi
+                                </span>
+
+
+                                <h4>
+                                    Bumi
+                                </h4>
+
+
+                                <p>
+                                    Ikuti petualangan Raib dan
+                                    teman-temannya saat mereka
+                                    menemukan dunia yang tak
+                                    pernah mereka bayangkan.
+                                </p>
+
+
+                                <div class="book-bottom">
+
+                                    <strong>
+                                        Rp95.000
+                                    </strong>
+
+
+                                    <button
+                                        class="book-button order-button"
+                                        type="button"
+                                        data-book="Bumi"
+                                        aria-label="Pesan Bumi"
+                                    >
+                                        <i class="bi bi-plus"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <!-- LAUT BERCERITA -->
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                        <article class="book-card">
+
+                            <div class="book-cover">
+
+                                <img
+                                    src="laut bercerita.jpg"
+                                    alt="Cover buku Laut Bercerita"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+
+                            <div class="book-info">
+
+                                <span class="book-category">
+                                    Fiksi
+                                </span>
+
+
+                                <h4>
+                                    Laut Bercerita
+                                </h4>
+
+
+                                <p>
+                                    Sebuah kisah tentang
+                                    kehilangan, persahabatan,
+                                    keluarga, dan perjuangan
+                                    yang tidak mudah dilupakan.
+                                </p>
+
+
+                                <div class="book-bottom">
+
+                                    <strong>
+                                        Rp110.000
+                                    </strong>
+
+
+                                    <button
+                                        class="book-button order-button"
+                                        type="button"
+                                        data-book="Laut Bercerita"
+                                        aria-label="Pesan Laut Bercerita"
+                                    >
+                                        <i class="bi bi-plus"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <!-- NEGERI 5 MENARA -->
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                        <article class="book-card">
+
+                            <div class="book-cover">
+
+                                <img
+                                    src="negeri.jpg"
+                                    alt="Cover buku Negeri 5 Menara"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+
+                            <div class="book-info">
+
+                                <span class="book-category">
+                                    Fiksi
+                                </span>
+
+
+                                <h4>
+                                    Negeri 5 Menara
+                                </h4>
+
+
+                                <p>
+                                    Enam sahabat belajar mengejar
+                                    mimpi dari sebuah pesantren
+                                    dan percaya bahwa cita-cita
+                                    bisa membawa mereka jauh.
+                                </p>
+
+
+                                <div class="book-bottom">
+
+                                    <strong>
+                                        Rp105.000
+                                    </strong>
+
+
+                                    <button
+                                        class="book-button order-button"
+                                        type="button"
+                                        data-book="Negeri 5 Menara"
+                                        aria-label="Pesan Negeri 5 Menara"
+                                    >
+                                        <i class="bi bi-plus"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <!-- AROMA KARSA -->
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                        <article class="book-card">
+
+                            <div class="book-cover">
+
+                                <img
+                                    src="aroma karsa.jpg"
+                                    alt="Cover buku Aroma Karsa"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+
+                            <div class="book-info">
+
+                                <span class="book-category">
+                                    Fiksi
+                                </span>
+
+
+                                <h4>
+                                    Aroma Karsa
+                                </h4>
+
+
+                                <p>
+                                    Kisah penuh misteri tentang
+                                    kemampuan mencium aroma,
+                                    pencarian, dan rahasia yang
+                                    perlahan mulai terungkap.
+                                </p>
+
+
+                                <div class="book-bottom">
+
+                                    <strong>
+                                        Rp125.000
+                                    </strong>
+
+
+                                    <button
+                                        class="book-button order-button"
+                                        type="button"
+                                        data-book="Aroma Karsa"
+                                        aria-label="Pesan Aroma Karsa"
+                                    >
+                                        <i class="bi bi-plus"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 NONFIKSI
+                 ================================================== -->
+
+            <div
+                id="katalog-nonfiksi"
+                class="catalog-category"
+            >
+
+                <div class="catalog-category-heading">
+
+                    <div>
+
+                        <h3>
+                            Nonfiksi
+                        </h3>
+
+                        <p>
+                            Buku untuk belajar, berpikir,
+                            dan melihat sesuatu dari sudut
+                            pandang yang baru.
+                        </p>
+
+                    </div>
+
+
+                    <span>
+                        4 Buku
+                    </span>
+
+                </div>
+
+
+                <div class="row g-4">
+
+
+                    <!-- ATOMIC HABITS -->
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                        <article class="book-card">
+
+                            <div class="book-cover">
+
+                                <img
+                                    src="atomic habits.jpg"
+                                    alt="Cover buku Atomic Habits"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+
+                            <div class="book-info">
+
+                                <span class="book-category">
+                                    Nonfiksi
+                                </span>
+
+
+                                <h4>
+                                    Atomic Habits
+                                </h4>
+
+
+                                <p>
+                                    Buku yang membahas bagaimana
+                                    kebiasaan kecil, jika dilakukan
+                                    secara konsisten, bisa membawa
+                                    perubahan besar.
+                                </p>
+
+
+                                <div class="book-bottom">
+
+                                    <strong>
+                                        Rp120.000
+                                    </strong>
+
+
+                                    <button
+                                        class="book-button order-button"
+                                        type="button"
+                                        data-book="Atomic Habits"
+                                        aria-label="Pesan Atomic Habits"
+                                    >
+                                        <i class="bi bi-plus"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <!-- FILOSOFI TERAS -->
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                        <article class="book-card">
+
+                            <div class="book-cover">
+
+                                <img
+                                    src="filosofi.jpg"
+                                    alt="Cover buku Filosofi Teras"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+
+                            <div class="book-info">
+
+                                <span class="book-category">
+                                    Nonfiksi
+                                </span>
+
+
+                                <h4>
+                                    Filosofi Teras
+                                </h4>
+
+
+                                <p>
+                                    Mengenal Stoisisme dengan
+                                    bahasa yang dekat dengan
+                                    kehidupan sehari-hari dan
+                                    berbagai masalah yang kita hadapi.
+                                </p>
+
+
+                                <div class="book-bottom">
+
+                                    <strong>
+                                        Rp95.000
+                                    </strong>
+
+
+                                    <button
+                                        class="book-button order-button"
+                                        type="button"
+                                        data-book="Filosofi Teras"
+                                        aria-label="Pesan Filosofi Teras"
+                                    >
+                                        <i class="bi bi-plus"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <!-- SAPIENS -->
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                        <article class="book-card">
+
+                            <div class="book-cover">
+
+                                <img
+                                    src="sapiens.jpg"
+                                    alt="Cover buku Sapiens"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+
+                            <div class="book-info">
+
+                                <span class="book-category">
+                                    Nonfiksi
+                                </span>
+
+
+                                <h4>
+                                    Sapiens
+                                </h4>
+
+
+                                <p>
+                                    Ajak diri kamu melihat kembali
+                                    perjalanan panjang manusia,
+                                    dari masa lampau hingga dunia
+                                    yang kita kenal sekarang.
+                                </p>
+
+
+                                <div class="book-bottom">
+
+                                    <strong>
+                                        Rp150.000
+                                    </strong>
+
+
+                                    <button
+                                        class="book-button order-button"
+                                        type="button"
+                                        data-book="Sapiens"
+                                        aria-label="Pesan Sapiens"
+                                    >
+                                        <i class="bi bi-plus"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <!-- THE PSYCHOLOGY OF MONEY -->
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                        <article class="book-card">
+
+                            <div class="book-cover">
+
+                                <img
+                                    src="the psychology.jpg"
+                                    alt="Cover buku The Psychology of Money"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+
+                            <div class="book-info">
+
+                                <span class="book-category">
+                                    Nonfiksi
+                                </span>
+
+
+                                <h4>
+                                    The Psychology of Money
+                                </h4>
+
+
+                                <p>
+                                    Membahas cara kita memandang
+                                    uang, mengambil keputusan,
+                                    dan menghadapi risiko dalam
+                                    kehidupan sehari-hari.
+                                </p>
+
+
+                                <div class="book-bottom">
+
+                                    <strong>
+                                        Rp115.000
+                                    </strong>
+
+
+                                    <button
+                                        class="book-button order-button"
+                                        type="button"
+                                        data-book="The Psychology of Money"
+                                        aria-label="Pesan The Psychology of Money"
+                                    >
+                                        <i class="bi bi-plus"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 ANAK-ANAK
+                 ================================================== -->
+
+            <div
+                id="katalog-anak"
+                class="catalog-category"
+            >
+
+                <div class="catalog-category-heading">
+
+                    <div>
+
+                        <h3>
+                            Anak-Anak
+                        </h3>
+
+                        <p>
+                            Cerita dan pembelajaran ringan
+                            yang bisa dinikmati bersama.
+                        </p>
+
+                    </div>
+
+
+                    <span>
+                        4 Buku
+                    </span>
+
+                </div>
+
+
+                <div class="row g-4">
+
+
+                    <!-- DONGENG ANAK -->
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                        <article class="book-card">
+
+                            <div class="book-cover">
+
+                                <img
+                                    src="dongeng.jpg"
+                                    alt="Cover buku Kumpulan Dongeng Anak"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+
+                            <div class="book-info">
+
+                                <span class="book-category">
+                                    Anak-Anak
+                                </span>
+
+
+                                <h4>
+                                    Kumpulan Dongeng Anak
+                                </h4>
+
+
+                                <p>
+                                    Kumpulan cerita sederhana
+                                    yang cocok dibaca bersama
+                                    sambil mengenalkan berbagai
+                                    pesan dan nilai kehidupan.
+                                </p>
+
+
+                                <div class="book-bottom">
+
+                                    <strong>
+                                        Rp75.000
+                                    </strong>
+
+
+                                    <button
+                                        class="book-button order-button"
+                                        type="button"
+                                        data-book="Kumpulan Dongeng Anak"
+                                        aria-label="Pesan Kumpulan Dongeng Anak"
+                                    >
+                                        <i class="bi bi-plus"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <!-- ENSIKLOPEDIA -->
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                        <article class="book-card">
+
+                            <div class="book-cover">
+
+                                <img
+                                    src="ensiklopedia.jpg"
+                                    alt="Cover buku Ensiklopedia Sains Anak"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+
+                            <div class="book-info">
+
+                                <span class="book-category">
+                                    Anak-Anak
+                                </span>
+
+
+                                <h4>
+                                    Ensiklopedia Sains Anak
+                                </h4>
+
+
+                                <p>
+                                    Mengenalkan berbagai hal
+                                    tentang sains dengan cara
+                                    yang sederhana, ringan,
+                                    dan mudah dipahami.
+                                </p>
+
+
+                                <div class="book-bottom">
+
+                                    <strong>
+                                        Rp90.000
+                                    </strong>
+
+
+                                    <button
+                                        class="book-button order-button"
+                                        type="button"
+                                        data-book="Ensiklopedia Sains Anak"
+                                        aria-label="Pesan Ensiklopedia Sains Anak"
+                                    >
+                                        <i class="bi bi-plus"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <!-- SI KANCIL -->
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                        <article class="book-card">
+
+                            <div class="book-cover">
+
+                                <img
+                                    src="si kancil.jpg"
+                                    alt="Cover buku Petualangan Si Kancil"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+
+                            <div class="book-info">
+
+                                <span class="book-category">
+                                    Anak-Anak
+                                </span>
+
+
+                                <h4>
+                                    Petualangan Si Kancil
+                                </h4>
+
+
+                                <p>
+                                    Ikuti tingkah dan petualangan
+                                    Si Kancil sambil menemukan
+                                    pesan moral di balik setiap
+                                    ceritanya.
+                                </p>
+
+
+                                <div class="book-bottom">
+
+                                    <strong>
+                                        Rp70.000
+                                    </strong>
+
+
+                                    <button
+                                        class="book-button order-button"
+                                        type="button"
+                                        data-book="Petualangan Si Kancil"
+                                        aria-label="Pesan Petualangan Si Kancil"
+                                    >
+                                        <i class="bi bi-plus"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <!-- BELAJAR ANGKA DAN HURUF -->
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                        <article class="book-card">
+
+                            <div class="book-cover">
+
+                                <img
+                                    src="belajar huruf dan angka.jpg"
+                                    alt="Cover buku Belajar Angka dan Huruf"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+
+                            <div class="book-info">
+
+                                <span class="book-category">
+                                    Anak-Anak
+                                </span>
+
+
+                                <h4>
+                                    Belajar Angka dan Huruf
+                                </h4>
+
+
+                                <p>
+                                    Teman belajar untuk mengenalkan
+                                    angka dan huruf dengan cara
+                                    yang lebih menyenangkan.
+                                </p>
+
+
+                                <div class="book-bottom">
+
+                                    <strong>
+                                        Rp65.000
+                                    </strong>
+
+
+                                    <button
+                                        class="book-button order-button"
+                                        type="button"
+                                        data-book="Belajar Angka dan Huruf"
+                                        aria-label="Pesan Belajar Angka dan Huruf"
+                                    >
+                                        <i class="bi bi-plus"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         FORM PEMESANAN
+         ================================================== -->
+
+    <section
+        id="pemesanan"
+        class="order-section"
+    >
+
+        <div class="container">
+
+            <div class="section-heading text-center">
+
+                <p class="section-label">
+                    PEMESANAN
+                </p>
+
+
+                <h2>
+                    Pesan buku pilihanmu
+                </h2>
+
+
+                <p>
+                    Sudah menemukan buku yang kamu suka?
+                    Isi data di bawah ini dan kami akan
+                    menyiapkan pesananmu.
+                </p>
+
+            </div>
+
+
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-lg-8 col-xl-7">
+
+                    <div class="order-form-card">
+
+                        <form id="orderForm">
+
+
+                            <!-- Nama -->
+
+                            <div class="form-group">
+
+                                <label
+                                    for="nama"
+                                    class="form-label"
+                                >
+                                    Nama Lengkap
+                                </label>
+
+
+                                <input
+                                    type="text"
+                                    class="form-control litera-input"
+                                    id="nama"
+                                    name="nama"
+                                    placeholder="Masukkan nama lengkap"
+                                    required
+                                >
+
+                            </div>
+
+
+
+                            <!-- Email -->
+
+                            <div class="form-group">
+
+                                <label
+                                    for="email"
+                                    class="form-label"
+                                >
+                                    Email
+                                </label>
+
+
+                                <input
+                                    type="email"
+                                    class="form-control litera-input"
+                                    id="email"
+                                    name="email"
+                                    placeholder="contoh@email.com"
+                                    required
+                                >
+
+                            </div>
+
+
+
+                            <!-- WhatsApp -->
+
+                            <div class="form-group">
+
+                                <label
+                                    for="whatsapp"
+                                    class="form-label"
+                                >
+                                    Nomor WhatsApp
+                                </label>
+
+
+                                <input
+                                    type="tel"
+                                    class="form-control litera-input"
+                                    id="whatsapp"
+                                    name="whatsapp"
+                                    placeholder="08xxxxxxxxxx"
+                                    required
+                                >
+
+                            </div>
+
+
+
+                            <!-- Buku -->
+
+                            <div class="form-group">
+
+                                <label
+                                    for="buku"
+                                    class="form-label"
+                                >
+                                    Pilih Buku
+                                </label>
+
+
+                                <select
+                                    class="form-select litera-input"
+                                    id="buku"
+                                    name="buku"
+                                    required
+                                >
+
+                                    <option
+                                        value=""
+                                        selected
+                                        disabled
+                                    >
+                                        Pilih buku yang ingin dipesan
+                                    </option>
+
+
+                                    <optgroup label="Fiksi">
+
+                                        <option value="Bumi">
+                                            Bumi
+                                        </option>
+
+                                        <option value="Laut Bercerita">
+                                            Laut Bercerita
+                                        </option>
+
+                                        <option value="Negeri 5 Menara">
+                                            Negeri 5 Menara
+                                        </option>
+
+                                        <option value="Aroma Karsa">
+                                            Aroma Karsa
+                                        </option>
+
+                                    </optgroup>
+
+
+                                    <optgroup label="Nonfiksi">
+
+                                        <option value="Atomic Habits">
+                                            Atomic Habits
+                                        </option>
+
+                                        <option value="Filosofi Teras">
+                                            Filosofi Teras
+                                        </option>
+
+                                        <option value="Sapiens">
+                                            Sapiens
+                                        </option>
+
+                                        <option value="The Psychology of Money">
+                                            The Psychology of Money
+                                        </option>
+
+                                    </optgroup>
+
+
+                                    <optgroup label="Anak-Anak">
+
+                                        <option value="Kumpulan Dongeng Anak">
+                                            Kumpulan Dongeng Anak
+                                        </option>
+
+                                        <option value="Ensiklopedia Sains Anak">
+                                            Ensiklopedia Sains Anak
+                                        </option>
+
+                                        <option value="Petualangan Si Kancil">
+                                            Petualangan Si Kancil
+                                        </option>
+
+                                        <option value="Belajar Angka dan Huruf">
+                                            Belajar Angka dan Huruf
+                                        </option>
+
+                                    </optgroup>
+
+                                </select>
+
+                            </div>
+
+
+
+                            <!-- Jumlah -->
+
+                            <div class="form-group">
+
+                                <label
+                                    for="jumlah"
+                                    class="form-label"
+                                >
+                                    Jumlah Buku
+                                </label>
+
+
+                                <input
+                                    type="number"
+                                    class="form-control litera-input"
+                                    id="jumlah"
+                                    name="jumlah"
+                                    min="1"
+                                    max="20"
+                                    value="1"
+                                    required
+                                >
+
+                            </div>
+
+
+
+                            <!-- Alamat -->
+
+                            <div class="form-group">
+
+                                <label
+                                    for="alamat"
+                                    class="form-label"
+                                >
+                                    Alamat Pengiriman
+                                </label>
+
+
+                                <textarea
+                                    class="form-control litera-input"
+                                    id="alamat"
+                                    name="alamat"
+                                    rows="4"
+                                    placeholder="Masukkan alamat lengkap untuk pengiriman"
+                                    required
+                                ></textarea>
+
+                            </div>
+
+
+
+                            <!-- Catatan -->
+
+                            <div class="form-group">
+
+                                <label
+                                    for="catatan"
+                                    class="form-label"
+                                >
+                                    Catatan
+                                    <span>
+                                        (opsional)
+                                    </span>
+                                </label>
+
+
+                                <textarea
+                                    class="form-control litera-input"
+                                    id="catatan"
+                                    name="catatan"
+                                    rows="3"
+                                    placeholder="Ada pesan atau permintaan khusus?"
+                                ></textarea>
+
+                            </div>
+
+
+
+                            <!-- Buttons -->
+
+                            <div class="order-actions">
+
+                                <button
+                                    type="submit"
+                                    class="btn order-submit"
+                                >
+
+                                    Kirim Pesanan
+
+                                    <i class="bi bi-arrow-right"></i>
+
+                                </button>
+
+
+                                <button
+                                    type="reset"
+                                    class="btn order-reset"
+                                >
+                                    Reset
+                                </button>
+
+                            </div>
+
+
+                            <!-- Information -->
+
+                            <p class="order-note">
+
+                                <i class="bi bi-info-circle"></i>
+
+                                Data ini hanya digunakan sebagai
+                                contoh proses pemesanan pada
+                                website Litera.
+
+                            </p>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         TENTANG
+         ================================================== -->
+
+    <section
+        id="tentang"
+        class="about-section"
+    >
+
+        <div class="container">
+
+            <div class="section-heading text-center">
+
+                <p class="section-label">
+                    TENTANG LITERA
+                </p>
+
+
+                <h2>
+                    Tempat untuk menemukan bacaan baru.
+                </h2>
+
+
+                <p>
+                    Litera dibuat sebagai ruang sederhana
+                    untuk membantu kamu menemukan buku
+                    yang mungkin cocok dengan minatmu.
+                    Karena terkadang, menemukan buku yang
+                    tepat adalah awal dari perjalanan yang
+                    menarik.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         FOOTER
+         ================================================== -->
+
+    <footer class="litera-footer">
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <a
+                    href="#beranda"
+                    class="footer-brand"
+                >
+                    LITERA
+                </a>
+
+
+                <p>
+                    Temukan cerita untuk setiap perjalanan.
+                </p>
+
+
+                <span>
+                    © 2026 Litera Book Catalog
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- ==================================================
+         BOOTSTRAP JAVASCRIPT
+         ================================================== -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+
+
+    <!-- ==================================================
+         PEMESANAN JAVASCRIPT
+         ================================================== -->
+
+    <script>
+
+        /* ================================================
+           TOMBOL PESAN PADA KARTU BUKU
+           ================================================ */
+
+        const orderButtons =
+            document.querySelectorAll(".order-button");
+
+        const bookSelect =
+            document.getElementById("buku");
+
+        const orderSection =
+            document.getElementById("pemesanan");
+
+
+        orderButtons.forEach(function (button) {
+
+            button.addEventListener("click", function () {
+
+                const selectedBook =
+                    this.dataset.book;
+
+
+                /* Pilih buku secara otomatis */
+
+                bookSelect.value =
+                    selectedBook;
+
+
+                /* Scroll ke form */
+
+                orderSection.scrollIntoView({
+                    behavior: "smooth"
+                });
+
+
+                /* Fokus ke pilihan buku */
+
+                setTimeout(function () {
+
+                    bookSelect.focus();
+
+                }, 600);
+
+            });
+
+        });
+
+
+
+        /* ================================================
+           SUBMIT FORM
+           ================================================ */
+
+        const orderForm =
+            document.getElementById("orderForm");
+
+
+        orderForm.addEventListener(
+            "submit",
+            function (event) {
+
+                event.preventDefault();
+
+
+                const nama =
+                    document.getElementById("nama").value;
+
+                const buku =
+                    document.getElementById("buku").value;
+
+                const jumlah =
+                    document.getElementById("jumlah").value;
+
+
+                alert(
+                    "Terima kasih, " +
+                    nama +
+                    "!\n\n" +
+                    "Pesanan kamu:\n" +
+                    buku +
+                    " (" +
+                    jumlah +
+                    " buku)\n\n" +
+                    "Pesanan berhasil dicatat."
+                );
+
+
+                orderForm.reset();
+
+            }
+        );
+
+    </script>
+
+</body>
+
+</html>
